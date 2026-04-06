@@ -1,0 +1,91 @@
+:root{
+
+    /* global variable */
+    --main-color:pink;
+    --sub-color:skyblue;
+    --text-color:rgb(66, 247, 66);
+    
+}
+
+#login
+{
+    --local:red;
+    /* //local variable */
+    background-color: var(--local);
+    color: black;
+    border-radius: 6px;
+    border: 2px solid black;
+}
+
+#register
+{
+    /* background-color:skyblue; */
+    background-color:var(--sub-color);
+    color: black;
+    border-radius: 6px;
+     border: 2px solid black;
+
+}
+
+#mainheading,
+th
+{
+
+    color: var(--main-color);
+}
+
+#subheading
+{
+    color:var(--sub-color);
+}
+
+#normal,
+td
+{
+
+    color:var(--text-color);
+}
+
+
+/* td ,th{
+
+    border:1px solid black;
+}
+table{
+    border-collapse: collapse;
+} */
+
+
+/* parent space then child(or successor)
+
+/* h1 h2{
+    h1->parent
+    h2->successor
+} */ 
+
+
+/* int[][] freq =new int[128][2];
+
+
+
+for(int i=0;i<s.length();i++)
+{
+    int val =(int)(s.charAt(i));
+    freq[val][0] =val;
+    freq[val][1] +=1;
+}
+
+Arrays.sort(freq,(a,b)->Integer.compare(b[1],a[1]));
+
+
+StringBuilder ans =new StringBuilder();
+for(int[] a:freq)
+{
+    for(int i=0;i<a[1];i++)
+    {
+        ans.append((char)(a[0]));
+    }
+}
+
+return ans.toString();
+ */

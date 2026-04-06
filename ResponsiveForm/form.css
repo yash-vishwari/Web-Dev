@@ -1,0 +1,268 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#logo,
+footerlogo{
+    min-width:100px;
+    max-width: 100%;
+    height: 45px;
+    aspect-ratio: 7 / 2;
+    
+}
+
+#navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 24px;
+    
+}
+li a,#phone{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+
+#navbar{
+    position: sticky;
+    display: flex;
+    margin: 22px;
+   
+}
+#phoneLogo_Login{
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+    margin-left: auto;
+    text-decoration: none;
+    gap: 20px;
+   
+}
+
+#login_button{
+    background-color: rgb(18, 87, 133);
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    width: 100%;
+    height: 90%;
+    box-shadow: 6px 6px 0px #79b6de;
+}
+
+span{
+    height:100%;
+    width: 200px;
+}
+
+#login_button:hover{
+    transform: translate(2px,2px);
+    transition: transform 0.1s linear;
+    box-shadow: none;
+}
+
+#form{
+    
+    border-radius: 15px;
+    background-color: rgba(214, 242, 254, .5);
+    width: 50vw;
+    display: grid;
+    row-gap: 50px;
+    padding: 0 25px;;
+   
+}
+
+#outerdiv{
+    display: flex;
+    justify-content: center;
+}
+
+#form-footer,
+.input_field{
+    display: flex;
+    padding: 0px 15px;
+    gap: 20px;
+    
+}
+
+#heading{
+   
+    text-align: center; 
+    width: 90%;   
+    
+}
+
+
+#div1{
+
+    
+     padding: 0px 15px;
+     
+}
+
+#number-block
+,#name-block
+,#year-box
+,#branch-box
+,#admission_details
+,#courses
+{
+
+    
+    width: 50%;
+}
+
+#email-box{
+    width: 80%;
+}
+#qualification-box{
+    width: 20%;
+}
+
+.input_box{
+
+    width: 100%;
+    height: 140%;
+    border-radius: 6px;
+    outline: gray;
+    border: 1px solid #eaecf0;
+    
+}
+
+select{
+    background-color: white;
+}
+
+
+#school-college{
+    width: 100%;
+}
+
+
+#admission_details{
+    display: grid;
+    row-gap: 30px;
+}
+.dropdown{
+    border-radius: 6px;
+    
+    width: 100%;
+    height: 50px;
+}
+#submit-button-box{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#submit-button{
+
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    height: 50px;
+    width: 120px;
+   margin-bottom: 20px ;
+}
+    
+#footer{
+    margin-top: 100px;
+    display: flex;
+    background-color: rgb(18, 87, 133);
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+#footer ul li{
+    list-style: none;;
+}
+#description{
+
+    width: 300px;
+    line-height: 1.6;
+    color: white;
+    font-size: medium;
+}
+
+#quicklinks ul{
+
+    
+    padding: 0;
+
+    
+    
+}
+
+#quicklinks{
+    color: white;
+    
+    
+}
+
+#quicklinks li a{
+
+    
+    color: white;
+    font-style:normal;
+    font-size:large;
+    
+}
+
+
+@media (max-width:767px) and (min-width:151px) {
+
+    #div1,#email-qualification,#form-footer,.input_field
+    {
+        display: grid;
+        row-gap: 40px;
+        
+    }
+    .input_box{
+       
+        width:100%;
+      
+    }
+    #outerdiv{
+        
+        flex-wrap: wrap;
+    }
+ #email-box,#number-block
+,#name-block
+,#year-box
+,#branch-box
+,#admission_details
+,#courses,#qualification-box{
+    width: 100%;
+    }
+}  
+@media (max-width:150px){
+
+    #div1,#email-qualification,#form-footer,.input_field
+    {
+        display: grid;
+        row-gap: 40px;
+        
+    }
+    .input_box{
+       
+        width:70px;
+        height:50px;
+        
+      
+    }
+    #outerdiv
+    {
+        
+        flex-wrap: wrap;
+    }
+    input::placeholder {
+        opacity: 0;   /* hides the placeholder */
+    }
+ 
+}
+

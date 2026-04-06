@@ -1,0 +1,106 @@
+#outerdiv{
+
+    width: 900px;
+    height: 800px;
+    background-color: transparent;
+    display:flex;
+    gap:50px;
+    justify-content: center;
+    align-items: end;
+   
+    
+
+    
+    
+    
+}
+
+a{
+    margin-left: 50px;
+}
+
+
+
+
+body{
+
+    background-color: rgba(18, 90, 223, 0.918);
+    display: flex;
+    justify-content: center;
+}
+#Loginbox,
+#RegistrationBox{
+
+
+    background-color: white;
+    
+    border-radius: 8px;
+    
+}
+
+#Loginbox{
+
+
+    width: 500px;
+    height:400px;
+   
+}
+
+#RegistrationBox{
+
+
+    width: 500px;
+    height:600px;
+
+}
+
+
+
+.input-tag{
+
+    outline: none;
+    border:none;
+    border-bottom: 1px solid #ccc;
+    font-size: large;
+    margin-bottom: 60px;
+
+    
+  
+}
+
+.bi {
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+#forgot_password{
+
+    justify-content: space-between;
+}
+.button{
+
+
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 400px;
+    height: 50px;
+    background-color:rgb(14, 116, 231); 
+    border: none;
+    color: white;
+    font-size: medium;
+}
+
+.Heading{
+     align-self: center;
+     padding-left: 15px;
+}
+
+.Heading span {
+  border-bottom: 3px solid #2d6cdf;
+}
+
+.Heading{
+    font-family:'Poppins', sans-serif;
+    font-weight: 600;          
+    letter-spacing: 0.5px;
+}

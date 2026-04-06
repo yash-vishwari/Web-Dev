@@ -1,0 +1,26 @@
+#div1{
+
+    height: 20px;
+    width: 50px;
+    border: 1px solid black;
+    overflow: hidden;
+    text-wrap-mode: nowrap;
+    transition:all linear 2s;
+
+    
+     /* do this when hover is removed ,there is no need to write this line in hover */
+    
+}
+
+
+#div1:hover{
+    width:250px;
+    background-color: aqua;
+    height:60px;
+    transform: rotateY(90deg) skew(45deg) scale(1.5);
+    
+
+    /* dont work when width ->fit content */
+    /* keyframe */
+ 
+}

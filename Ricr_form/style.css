@@ -1,0 +1,137 @@
+
+
+  
+    .input_field{
+
+
+        display: flex;
+        padding-left: 30px;
+        gap: 20px;
+
+  
+    }
+    #enquiry_box
+    {
+
+        background-color: #79b6de;
+        border-radius: 8px;
+        display: grid;
+        margin-left: 300px;
+       
+        width: 60vw;
+        
+        gap: 20px;
+        
+    }
+
+  
+    
+
+
+    #name
+    ,#number
+    ,#executive_name
+    ,#source_of_info
+    {
+
+        width:400px;
+       
+       
+        
+       
+
+    }
+
+   .input_box{
+         
+    border: 1px solid black ;
+    height: 50px;
+    border-radius: 4px;
+   }
+
+   #courses{
+
+    padding-left: 30px;
+   }
+   #admission_details{
+
+    gap: 10px;
+   }
+   #courses,#admission_details{
+    display: flex;
+    flex-direction: column;
+   }
+
+   #Courses_AdmissionDetails
+   {
+    display: flex;
+    gap: 80px;
+    
+   }
+
+   button
+   {
+    color: white;
+    background-color: black;
+    display: flex;
+   border-radius: 30px;
+   justify-self: center;
+   width: 140px;
+   height: 50px;
+   
+   margin-bottom: 20px;
+   align-items: center;
+   justify-content: center;
+   font-size: medium;
+   }
+   
+   #options
+   {
+
+    display: flex;
+    justify-content: space-evenly;
+   }
+   #header{
+
+
+    display: flex;
+    position: sticky;
+    top: 0px;
+    background-color: aliceblue;
+    justify-content: space-between;
+   }
+   
+
+   #image{
+    background-color: white;
+    width: 40px;
+    align-items: center;
+   }
+
+   #login_button
+   {
+    display: flex;
+    background-color: rgb(5, 82, 247);
+    color: white;
+    border-radius: 5px;
+   }
+
+   .header_details
+   {
+    display: flex;
+    gap: 60px;
+   }
+
+   img
+   {
+    display: flex;
+    justify-self: left;
+    padding-left: 0px;
+    width: 150px;
+   }
+   #submit
+   {
+
+    margin-left: 400px;
+        
+   }
