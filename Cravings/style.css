@@ -141,11 +141,7 @@ body{
     
 }
 
-.loginOuter{
 
-    
-   
-}
 .loginField{
     margin:0 20px;
 }
@@ -226,9 +222,159 @@ body{
 }
 
 
-.card1 hotelImage{
 
-    width: 200px;
-    height: 100px;
+
+.Register{
+
+    background-image: url(https://cravings.ricr.in/foodTable.webp);
+    background-size: cover;
 }
 
+
+#name,
+#mail,
+#phone,
+#password,
+#confirmpassword
+{
+
+    
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    
+    width: 100%;
+}
+.RegisterField{
+
+   margin:0 20px;
+}
+
+.AboutUs
+{
+    background-image:url(AbousUsBG.png);
+    
+    background-size: cover;
+    
+   
+}
+
+
+
+
+.hotelImage{
+
+    height: 200px;
+    width: 400px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.hotelImageBox{
+    position: relative;
+}
+
+.card1{
+    display: flex;
+    flex-direction: column;
+   
+    
+    border-radius: 20px;
+   
+   background-color: white;
+    width: 400px;
+    height: auto;
+
+}
+
+.HotelDescription{
+
+   
+    font-size: medium;
+    color: var(--color-base-content);
+}
+
+
+.cuisines{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+    
+}
+
+
+
+span{
+    background-color: var(--color-base-100);
+    margin-left: 5px;
+}
+
+.HotelName{
+
+   font-weight: 900;
+}
+.ViewMenuButton{
+
+   
+    background-color: var(--color-primary);
+    color: white;
+   
+    width: 94%;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.HotelDetailBox
+{
+    margin-left: 10px;
+}
+
+.cuisine{
+
+    background-color: var(--color-base-200);
+    font-size: 90%;
+    font-weight: 100;
+    padding: 5px;
+}
+
+.MenuButton{
+
+    margin: 5px;
+    margin-top: 20px;
+}
+.Rating
+{
+    color: white;
+    background-color: var(--color-primary);
+    border-radius: 20px;
+    padding: 12px;
+    position:absolute;
+    right: 10px;
+    top: 10px;
+
+}
+
+.hotels{
+    
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+   
+    
+}
+
+.OrderNowPageBg{
+
+    background-color: var(--color-base-200);
+    height: 100%;
+    width: 100%;
+}
+
+.RestaurantsAvailable
+{
+    margin-left: 50px;
+
+   
+}
