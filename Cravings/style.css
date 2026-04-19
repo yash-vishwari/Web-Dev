@@ -488,3 +488,138 @@ span{
   opacity: 0.5;
 
 }
+
+.feedback-btn
+{
+    background-color: var(--color-primary);
+    color: white;
+
+}
+.feedback-bg {
+  background-image: url(feedback-bg.png);
+  background-size: cover;
+}
+
+.form-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  max-height: 85vh;
+  overflow-y: auto;
+}
+.FeedbackHeading{
+
+    color: var(--color-primary);
+}
+
+
+.hero-section 
+{
+        background:
+          linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+          url(sitemapBg.png) center/cover no-repeat;
+        height: 380px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+      }
+
+      .hero-section h1 
+      {
+        font-size: 4rem;
+        font-weight: 700;
+      }
+
+      .hero-section h1 span 
+      {
+        color: #d35400;
+      }
+
+      .hero-section p 
+      {
+        font-size: 1.2rem;
+        color: #ddd;
+      }
+
+      .section-title
+       {
+        color: #b3541e;
+        font-size: 0.95rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 10px;
+      }
+
+      .sitemap-links a 
+      {
+        display: block;
+        color: #6c757d;
+        text-decoration: none;
+        margin-bottom: 14px;
+        font-size: 1.05rem;
+      }
+
+      .sitemap-links a i 
+      {
+        color: #d27a4c;
+        width: 20px;
+        margin-right: 8px;
+      }
+
+      .sitemap-links a:hover 
+      {
+        color: #d35400;
+      }
+
+      .footer-banner 
+      {
+        background-color: #c94909;
+        color: white;
+        text-align: center;
+        padding: 28px 15px;
+        margin-top: 60px;
+      }
+
+      .footer-banner a 
+      {
+        color: white;
+        font-weight: 700;
+        text-decoration: none;
+      }
+
+
+      .num
+      {
+        background-color: var(--color-base-100);
+      }
+
+      .box
+      {
+        width: 500px;
+       
+        background-color: var(--color-base-200);
+      }
+
+      .cir
+      {
+        height: 40px;
+        width: 40px;
+      }
+
+      .partnerBG
+      {
+        background-color: var(--color-primary);
+      }
+
+      .pinkText
+      {
+        color: rgb(195, 55, 101);
+      }
