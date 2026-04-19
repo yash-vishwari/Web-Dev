@@ -17,6 +17,11 @@ body{
     padding: 0px;
 }
 
+#policies{
+    display: flex;
+    gap: 20px;
+}
+
 #navbar{
     background-color: var(--color-primary);
     height: 64px;
@@ -44,10 +49,14 @@ body{
 
 #footer{
 
-    
-    height:400px;
+   
+    height:300px;
+   
+    padding-bottom: 50px;
+    width: 100%;
+    padding-right: 10px;
     background-color: var(--color-neutral);
-    margin: none;
+    
 }
 
 #footer_logo{
@@ -77,6 +86,8 @@ body{
 
 .ul_footer{
     list-style: none;
+    margin: 0px;
+    padding: 0px;
     
 }
 
@@ -84,18 +95,26 @@ body{
 {
     color: white;
     text-decoration: none;
+    
+  
+    
 }
 .footer_text{
 
     font-size: small;
+    
 }
 
 
 
 .boxes_underline{
+   
+    margin-left: 50px;
     margin-top: 20px;
-    margin-bottom: 20px;
-    border-bottom: 1px solid white;
+    width: 90vw;;
+    border-top:1px solid white;
+    padding-top: 20px;
+    
 }
 
 .copyright_disclaimer{
@@ -108,7 +127,13 @@ body{
     margin-left: auto;
     gap: 20px;
 }
-
+.LoginPage
+{
+     background-image: url(foodbg.png);
+     background-size: cover;
+     background-size: 100vw 90vh;
+     background-repeat: no-repeat;
+}
 
 .loginBox{
 
@@ -116,7 +141,7 @@ body{
     row-gap: 18px;
     width: 400px;
     height:fit-content;
-    border: 1px solid black;
+    padding:20px ;
     margin-left: 100px;
     margin-top: 100px;
     background-color: white;
@@ -124,7 +149,7 @@ body{
 
 }
 .Login_Heading,
-.Register_Heading{
+.Register_Heading,.ContactUs_Heading{
 
     color: var(--color-primary);
     font-weight:600;
@@ -168,7 +193,7 @@ body{
 }
 
 .RegisterBox{
-    border: 1px solid black;
+    
     display: grid;
     row-gap: 20px;
     background-color: white;
@@ -178,10 +203,32 @@ body{
     margin-right: 110px;
     margin-top: 60px;
     border-radius: 10px;
+    padding: 10px;
     
     
 }
 
+.ContactUsBox
+{
+
+    display: grid;
+    row-gap: 20px;
+    background-color: white;
+    width: 450px;
+    height:fit-content;
+    padding:20px;
+    padding-bottom: 20px;
+    margin-left: 100px;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.ContactPage
+{
+
+   background-image: url(ContactUsBg.png);
+}
 
 .RegistrationTandC{
     text-decoration: none;
@@ -226,7 +273,7 @@ body{
 
 .Register{
 
-    background-image: url(https://cravings.ricr.in/foodTable.webp);
+    background-image: url(foodbg.png);
     background-size: cover;
 }
 
@@ -245,27 +292,46 @@ body{
     
     width: 100%;
 }
-.RegisterField{
+.RegisterField,.InputField{
 
    margin:0 20px;
 }
 
-.AboutUs
-{
-    background-image:url(AbousUsBG.png);
-    
-    background-size: cover;
-    
-   
+
+
+#ContactUsMessage{
+
+    height: 500px;
 }
 
+#ContactUsPurpose{
 
+    width: 100%;
+    height: 36px;
+}
 
+.ContactUsMessage
+{
+
+    width: 90%;
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#ContactUsPurpose
+{
+    width: 100%;
+    border: 1px solid black;
+     border-radius: 5px;
+}
 
 .hotelImage{
 
-    height: 200px;
-    width: 400px;
+    height: 180px;
+    width: 350px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     
@@ -282,7 +348,7 @@ body{
     border-radius: 20px;
    
    background-color: white;
-    width: 400px;
+    width: auto;
     height: auto;
 
 }
@@ -290,7 +356,7 @@ body{
 .HotelDescription{
 
    
-    font-size: medium;
+    font-size: small;
     color: var(--color-base-content);
 }
 
@@ -302,8 +368,6 @@ body{
     
 }
 
-
-
 span{
     background-color: var(--color-base-100);
     margin-left: 5px;
@@ -311,7 +375,8 @@ span{
 
 .HotelName{
 
-   font-weight: 900;
+   font-weight: 700;
+   font-size: medium;
 }
 .ViewMenuButton{
 
@@ -334,9 +399,11 @@ span{
 .cuisine{
 
     background-color: var(--color-base-200);
-    font-size: 90%;
-    font-weight: 100;
+    font-size: small;
+    color: var(--color-base-content);
+    font-weight: 300;
     padding: 5px;
+    
 }
 
 .MenuButton{
@@ -357,24 +424,67 @@ span{
 }
 
 .hotels{
-    
     display: flex;
     justify-content: center;
+   margin: auto;
     gap: 20px;
+    width: 70vw;
    
     
 }
 
 .OrderNowPageBg{
-
     background-color: var(--color-base-200);
-    height: 100%;
+    height: 100vh;
     width: 100%;
 }
 
 .RestaurantsAvailable
 {
-    margin-left: 50px;
-
+    width: 70vw;
+    margin: auto;
+    h4{
+        font-weight: 700;
+        font-size:x-large;
+    }
+    
    
+}
+
+.OrderNowsearchBoxOuterDiv
+{
+    background-color: var(--color-base-100);
+}
+
+.OrderNowsearchBox{
+    
+
+    
+    border: 1px solid var(--color-primary);
+    width: 100%;
+    margin: 30px;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+.OrderNowsearchBox input{
+    
+
+
+    width: 80%;
+    height:40px;
+   
+    border: none;
+    outline: none;
+
+}
+
+.OrderNowsearchBox input::placeholder{
+    
+
+
+  color: var(--color-primary);
+  opacity: 0.5;
+
 }
