@@ -623,3 +623,24 @@ span{
       {
         color: rgb(195, 55, 101);
       }
+
+      .SignUp{
+
+        background-color: var(--color-primary);
+        color: white;
+      }
+
+
+      .FirstBox{
+        background-image: url(hotel1.png);
+        height: 50vh;
+        background-size:100vw 56vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .HomePage_Restaurants{
+      background: #ffeded;
+      background: linear-gradient(180deg, var(--color-primary) 0%,   var(--color-base-100) 90%);
+      }
