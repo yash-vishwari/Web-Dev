@@ -1,3 +1,4 @@
+
 let age = 5;
 
 if (age >= 18) {
@@ -94,3 +95,23 @@ switch (choice) {
     console.log("paani");
   }
 }
+// let and const are block scoped
+
+// var is functional scoped 
+
+{
+  let a =10;
+  let b =20;
+}
+
+// console.log("No error as var functional scoped hai, Block Scoped to let and const hai ",a);
+// console.log(b);
+// local can be block but block can not be local
+// all local variables are block but not all block variables are local they can be global as well
+a();
+function a(){
+
+  console.log("This is arrow function also known as lambda function");
+  
+}
+ 
