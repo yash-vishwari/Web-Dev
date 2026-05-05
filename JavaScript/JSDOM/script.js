@@ -1,15 +1,6 @@
 function Submit()
 {
-    const x =document.getElementById("fullName");
    
-    const y = document.querySelector(".myclass");
-    y[0].textContent =x.value;
-
-    const ele =document.getElementById("fullName");
-
-    ele.classList.aad
-  
-
     const name =document.getElementById("fullName");
     const city =document.getElementById("city");
     const email =document.getElementById("mail");
@@ -20,6 +11,28 @@ function Submit()
     const dispemail = document.getElementById("myEmail");
     const disppswd = document.getElementById("myPassword");
     
+
+    dispname.textContent="Name:  "+name.value;
+    dispcity.textContent = "City: "+city.value;
+    
+
+    dispemail.textContent = "Email: "+email.value;
+    disppswd.textContent = "Password: "+pswd.value;
+
+    dispname.classList.remove("disphide");
+    dispname.classList.add("dispshow");
+
+
+    dispcity.classList.remove("disphide");
+    dispcity.classList.add("dispshow");
+
+    dispemail.classList.remove("disphide");
+    dispemail.classList.add("dispshow");
+
+
+    disppswd.classList.remove("disphide");
+     disppswd.classList.add("dispshow");
+
 }
 
 // radio button checkbox

@@ -1,10 +1,13 @@
 .container
 {
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .disphide
 {
-    display: none;
+    display: none !important;
 }
 
 .dispshow
