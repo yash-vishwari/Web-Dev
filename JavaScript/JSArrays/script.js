@@ -21,11 +21,6 @@ arr.push(110);
 
 // TwodArray.forEach((ele)=>console.log(ele[1]));
 
-
-
-
-
-
 // let t =[];
 
 // for(let i=0;i<=32;i++)
@@ -165,3 +160,7 @@ let k =s;
 s += " Right ??";
 console.log(s)
 console.log(k);
+
+
+
+

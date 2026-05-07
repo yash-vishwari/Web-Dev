@@ -1,0 +1,38 @@
+#bulb1
+{
+    height:100px;
+    width:100px;
+    border: 1px solid black;
+    border-radius: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+body{
+    background-color: black;
+}
+
+.Contentbox,.buttonBox
+{
+    border:2px solid black;
+}
+
+
+.Contentbox
+{
+    width:600px;
+    height :150px;
+}
+.buttonBox
+{
+    height :150px;
+}
+.outerBox
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;;
+}
