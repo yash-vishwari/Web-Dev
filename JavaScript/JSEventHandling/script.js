@@ -7,8 +7,6 @@
 
 // }
 
-
-
 // function Bulb1Green()
 // {
 
@@ -22,10 +20,9 @@
 // function Bulb1Off()
 // {
 //     const ele =document.getElementById("bulb1");
-     
+
 //     ele.style.backgroundColor="white";
 // }
-
 
 // function Bulb1Red()
 // {
@@ -45,7 +42,7 @@
 //     bulb.style.backgroundColor=color;
 // }
 
-//onclick 
+//onclick
 //onhover
 //eventHandler
 //addEventListener("type of event",functionname) -->Improves security
@@ -53,35 +50,63 @@
 
 //window.location.reload();
 
-document.getElementById("BgColor").addEventListener('change',ChangeBgColor);
-document.getElementById("HeadingColor").addEventListener('change',ChangeHeadingColor);
-document.getElementById("ParaColor").addEventListener('change',ChangeParaColor);
+// document.getElementById("BgColor").addEventListener('change',ChangeBgColor);
+// document.getElementById("HeadingColor").addEventListener('change',ChangeHeadingColor);
+// document.getElementById("ParaColor").addEventListener('change',ChangeParaColor);
 
+// function ChangeBgColor()
+// {
+//     const bg =document.getElementById("BgColor").value;
+//     const box = document.getElementById("Contentbox");
+//     box.style.backgroundColor =bg;
+// }
 
-function ChangeBgColor()
+// function ChangeHeadingColor() {
+
+//     const hclr = document.getElementById("HeadingColor").value;
+//     const heading = document.getElementById("heading");
+//     heading.style.color =hclr;
+// }
+
+// function ChangeParaColor() {
+
+//     const paraclr = document.getElementById("ParaColor").value;
+//     const para = document.getElementById("para");
+//     para.style.color = paraclr;
+
+// }
+
+// function reset()
+// {
+//     window.location.reload();
+// }
+
+document.getElementById("color1").addEventListener("mouseover", Color1);
+document.getElementById("color1").addEventListener("mouseout", BaseColor);
+document.getElementById("color2").addEventListener("mouseover", Color2);
+document.getElementById("color2").addEventListener("mouseout", BaseColor);
+document.getElementById("color3").addEventListener("mouseover", Color3);
+document.getElementById("color3").addEventListener("mouseout", BaseColor);
+
+function Color1() {
+  const bulb = document.getElementById("bulb1");
+  bulb.style.backgroundColor = "red";
+}
+
+function Color2() {
+  const bulb = document.getElementById("bulb1");
+  bulb.style.backgroundColor = "green";
+}
+
+function Color3() {
+  const bulb = document.getElementById("bulb1");
+  bulb.style.backgroundColor = "skyblue";
+}
+
+function BaseColor()
 {
-    const bg =document.getElementById("BgColor").value;
-    const box = document.getElementById("Contentbox");
-    box.style.backgroundColor =bg;
+    const bulb = document.getElementById("bulb1");
+    bulb.style.backgroundColor = "white";
 }
 
-function ChangeHeadingColor() {
-
-    const hclr = document.getElementById("HeadingColor").value;
-    const heading = document.getElementById("heading");
-    heading.style.color =hclr;
-}
-
-function ChangeParaColor() {
-
-    const paraclr = document.getElementById("ParaColor").value;
-    const para = document.getElementById("para");
-    para.style.color = paraclr;
-
-}
-
-
-function reset()
-{
-    window.location.reload();
-}
+// command space

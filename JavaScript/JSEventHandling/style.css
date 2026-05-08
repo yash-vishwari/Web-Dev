@@ -36,3 +36,29 @@ body{
     align-items: center;
     margin-top: 15px;;
 }
+
+#color1
+{
+    background-color: red;
+}
+#color2
+{
+    background-color:green
+}
+
+#color3
+{
+    background-color: skyblue;
+}
+
+.outerDiv
+{
+    display: flex;
+    gap: 8px;
+}
+
+#color1,#color2,#color3
+{
+    height: 40px;
+    width: 40px;
+}
