@@ -1,4 +1,4 @@
-#bulb1
+/* #bulb1
 {
     height:100px;
     width:100px;
@@ -8,9 +8,9 @@
    justify-content: center;
    align-items: center;
 
-}
+} */
 
-body{
+/* body{
     background-color: black;
 }
 
@@ -61,4 +61,10 @@ body{
 {
     height: 40px;
     width: 40px;
+} */
+
+#FullName{
+
+    margin-top: 15px;
+    margin-left: 15px;
 }

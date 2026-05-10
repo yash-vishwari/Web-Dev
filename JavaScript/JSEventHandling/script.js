@@ -81,32 +81,39 @@
 //     window.location.reload();
 // }
 
-document.getElementById("color1").addEventListener("mouseover", Color1);
-document.getElementById("color1").addEventListener("mouseout", BaseColor);
-document.getElementById("color2").addEventListener("mouseover", Color2);
-document.getElementById("color2").addEventListener("mouseout", BaseColor);
-document.getElementById("color3").addEventListener("mouseover", Color3);
-document.getElementById("color3").addEventListener("mouseout", BaseColor);
+// document.getElementById("color1").addEventListener("mouseover", Color1);
+// document.getElementById("color1").addEventListener("mouseout", BaseColor);
+// document.getElementById("color2").addEventListener("mouseover", Color2);
+// document.getElementById("color2").addEventListener("mouseout", BaseColor);
+// document.getElementById("color3").addEventListener("mouseover", Color3);
+// document.getElementById("color3").addEventListener("mouseout", BaseColor);
 
-function Color1() {
-  const bulb = document.getElementById("bulb1");
-  bulb.style.backgroundColor = "red";
-}
+// function Color1() {
+//   const bulb = document.getElementById("bulb1");
+//   bulb.style.backgroundColor = "red";
+// }
 
-function Color2() {
-  const bulb = document.getElementById("bulb1");
-  bulb.style.backgroundColor = "green";
-}
+// function Color2() {
+//   const bulb = document.getElementById("bulb1");
+//   bulb.style.backgroundColor = "green";
+// }
 
-function Color3() {
-  const bulb = document.getElementById("bulb1");
-  bulb.style.backgroundColor = "skyblue";
-}
+// function Color3() {
+//   const bulb = document.getElementById("bulb1");
+//   bulb.style.backgroundColor = "skyblue";
+// }
 
-function BaseColor()
-{
-    const bulb = document.getElementById("bulb1");
-    bulb.style.backgroundColor = "white";
-}
+// function BaseColor()
+// {
+//     const bulb = document.getElementById("bulb1");
+//     bulb.style.backgroundColor = "white";
+// }
 
+
+
+document.getElementById("FullName").addEventListener("change",(e) =>{
+
+  console.log(e.target.value);
+
+});
 // command space
