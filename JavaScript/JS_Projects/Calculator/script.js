@@ -1,8 +1,6 @@
 function Calculate(data)
 {
 
-
-    
     const eq = document.getElementById("result");
     if(data ==="AC" )
     {
