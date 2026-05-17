@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+     <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+      
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dark">
+    
+
+    <header class="bg-primary text-light p-3 text-center d-flex justify-content-between">
+      <div>
+        <h1>Password Manager</h1>
+      </div >
+      <div class="d-flex gap-3 my-3">
+        <a href="index.html" class="text-light">Save PassWords</a>
+        <a href="showPasswords.html" class="text-light">Show PassWords</a>
+      </div>
+    </header>
+
+    <main>
+
+        <div class="mx-auto mt-3 p-4">
+
+            <form class="d-flex flex-column gap-3 rounded justify-content-center align-items-center" id="passForm">
+
+
+
+                <input type="text" placeholder="Enter WebSite Name" class="w-25 rounded" id="siteName">
+
+                <input type="text" placeholder="Enter User Name" class="w-25 rounded" id="userName">
+
+
+                <input type="text" placeholder="Enter Password Name" class="w-25 rounded" id="password">
+
+
+
+                <div class="mx-auto mt-3 p-4 ">
+                     <button type ="button"    onclick="clearButton()"  class="btn btn-outline-danger">Clear</button>
+                    <button  type ="button" onclick="SaveButton()"   class="btn btn-outline-primary me-3">Save</button>
+                   
+                </div>
+
+                
+            </form>
+
+            
+         
+           
+        
+        
+        
+       
+        </div>
+    </main>
+    
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+</body>
+</html> 
