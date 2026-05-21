@@ -9,6 +9,7 @@ async function getData(val) {
 }
 
 
+// printing ith value after i seconds
 for(let i=1;i<=10;i++)
 {
    setTimeout(() => {
