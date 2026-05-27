@@ -1,46 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Currency Converter</title>
-</head>
-<body>
-    
-
-    
-   
-
-    <header>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="outerBox">
+         
+        <div class="header">
         <h1>Currency Converter</h1>
-    </header>
+       </div>
+      <div class="card">
+        
+      
 
+        <div class="countryBox">
 
+            <div class="country1">
 
-    
-    <div class="card">
+        <span>Select Country 1</span>
+        <select id="country1List">
+            <option value="">Select a Country</option>
+        </select>
 
+       <div>
+         <img src="" alt="" id="country1Img">
+       </div>
+       
+       </div>
 
-        <div class="currency1Block">
+       <div class="country2">
+
+        <span>Select Country 2</span>
+        <select id="country2List">
+            <option value="">Select a Country</option>
+        </select>
+         <img src="" alt="" id="country2Img">
+       </div>
+       
+        </div>
+       
+
+        <div>
+
+             <input type="text" id="amountInput" placeholder="Enter amount  ">
+        </div>
+       
+       
+      </div>
+       
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- 
+             <header class="header">
+          <h1>Currency Converter</h1>
+        </header>
+     
+       
+
+        <div>
+          <div class="currency1Block">
             <label for="">Currency 1</label>
 
-            <select name="" id="">
-                
-            </select>
-
+            <select name="" id=""></select>
+          </div>
         </div>
 
-        
-
-
-
-        <div class="currency2Block">
-
-
-        </div>
-
-
-
-    </div>
-</body>
-</html>
+        <div class="currency2Block"></div -->

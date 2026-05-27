@@ -1,0 +1,62 @@
+
+*
+{
+    margin:0;
+    padding:0;
+    
+}
+/* .outerBox
+{
+
+} */
+
+.card
+{
+
+
+    width: 500px;
+    max-width: 500px;
+    height: 500px;
+    margin: 100px auto;
+   background: linear-gradient(135deg,pink,#ffff,orange);
+    border-radius: 30px;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+   
+   padding: 20px 30px;
+}
+.header
+{
+    text-align: center;
+}
+select{
+
+
+    border-radius: 5px;
+    height: 30px;
+    
+}
+.countryBox
+{
+
+    display: flex;
+    
+    
+  
+   gap: 40px;
+}
+#amountInput
+{
+    display: none;
+}
+
+input{
+
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+    height: 30px;
+    text-align: center;
+}

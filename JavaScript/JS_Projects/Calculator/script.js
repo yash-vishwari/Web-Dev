@@ -20,7 +20,7 @@ function Calculate(data)
 
       return;
     } else if (data === "=" || data === "Enter") {
-      const result = eval(eq.innerText);
+      const result = eval(eq.innerText);//imp
 
       eq.innerText = result;
       return;
