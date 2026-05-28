@@ -14,7 +14,7 @@
 {
 
 
-    width: 500px;
+    width: auto;
     max-width: 500px;
     height: 500px;
     margin: 100px auto;
@@ -59,4 +59,37 @@ input{
     outline: none;
     height: 30px;
     text-align: center;
+}
+
+img
+{
+    margin-left: 50px;
+}
+#calculateButton
+{
+    display :none;
+    background-color:#0d6efd ;
+    opacity:90% ;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+   color: #ffff;
+    box-shadow:3px 5px #363535
+    
+}
+
+#calculateButton:active{
+    box-shadow: none;
+    transform: translate(0px,5px);
+     transition: box-shadow 0.1s linear;
+    transition: transform 0.1s linear;
+}
+
+#resultDisplay 
+{
+
+    
+  
+    color: black;
+
 }

@@ -170,18 +170,26 @@ const country21List = document.getElementById("country2List");
 const country1Img = document.getElementById("country1Img");
 const country2Img = document.getElementById("country2Img");
 const amount = document.getElementById("amountInput");
-
+let resultDisplay = document.getElementById("resultDisplay");
+let country1;
+let country2;
+let currency1;
+let currency2;
 country11List.addEventListener('change',(e)=>
 {
 
-    console.log(e.target.value);
-    country1Img.src = `https://flagsapi.com/${e.target.value}/flat/64.png`;
+    country1 = e.target.value.split("-")[0];
+    currency1 = e.target.value.split("-")[1];
+    country1Img.src = `https://flagsapi.com/${country1}/flat/64.png`;
 });
 
 country21List.addEventListener("change", (e) => {
 
-    country2Img.src = `https://flagsapi.com/${e.target.value}/flat/64.png`;
+    country2 = e.target.value.split("-")[0];
+     currency2 = e.target.value.split("-")[1];
+    country2Img.src = `https://flagsapi.com/${country2}/flat/64.png`;
     amount.style.display ="block";
+    calculateButton.style.display ="block";
     
 });
 function addCountryList() {
@@ -189,8 +197,8 @@ function addCountryList() {
     const option1 = document.createElement("option");
     const option2 = document.createElement("option");
     
-    option1.value = country.code;
-    option2.value = country.code;
+    option1.value = country.code + "-" + country.currencyCode;
+    option2.value = country.code + "-" + country.currencyCode;
     option1.innerText = `(${country.code}) ${country.name}`;
     option2.innerText = `(${country.code}) ${country.name}`;
     country11List.appendChild(option1);
@@ -200,3 +208,19 @@ function addCountryList() {
 
 addCountryList();
 
+async function calculate() {
+  const givenAmount = amount.value;
+  console.log(givenAmount);
+
+  const response = await fetch(
+    `https://v6.exchangerate-api.com/v6/57ba4526a702f5ec17baebf8/latest/${currency1}`,
+  );
+  const data =await response.json();
+  const rate = data.conversion_rates[currency2];
+ 
+  const result = (rate * givenAmount).toFixed(2);
+   resultDisplay.innerText = "Converted Amount :"+result;
+ 
+  console.log(result);
+ 
+}
