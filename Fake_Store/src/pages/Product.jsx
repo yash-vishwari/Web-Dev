@@ -32,7 +32,7 @@ const Product = () => {
 
     finally
     {
-      setIsLoading(false);
+      setIsLoading(false); 
     }
     
 
