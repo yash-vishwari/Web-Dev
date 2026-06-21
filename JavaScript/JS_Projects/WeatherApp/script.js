@@ -1,4 +1,4 @@
-const API_URL = "https://api.openweathermap.org/data/2.5/weather?units=metric&";
+const API_URL = "";
 
 const API_KEY = "";
 
