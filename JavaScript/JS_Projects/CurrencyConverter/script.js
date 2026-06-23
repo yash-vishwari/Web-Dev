@@ -4,7 +4,8 @@ const countryData = [
   { name: "Algeria", code: "DZ", currencyCode: "DZD" },
   { name: "Andorra", code: "AD", currencyCode: "EUR" },
   { name: "Angola", code: "AO", currencyCode: "AOA" },
-  { name: "Antigua and Barbuda", code: "AG", currencyCode: "XCD" },
+  { name: "Antigua and Barbuda", code: "AG", currencyCode: "XCD" }, 
+    
   { name: "Argentina", code: "AR", currencyCode: "ARS" },
   { name: "Armenia", code: "AM", currencyCode: "AMD" },
   { name: "Australia", code: "AU", currencyCode: "AUD" },
