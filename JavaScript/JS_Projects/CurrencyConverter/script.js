@@ -215,6 +215,7 @@ async function calculate() {
 
   const response = await fetch(
     `https://v6.exchangerate-api.com/v6/57ba4526a702f5ec17baebf8/latest/${currency1}`,
+    
   );
   const data =await response.json();
   const rate = data.conversion_rates[currency2];
