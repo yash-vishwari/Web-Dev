@@ -13,42 +13,42 @@ const Product = () => {
   const [products, setProducts] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
-  const loadPage =async ()=>{
+  // const loadPage =async ()=>{
 
-    try
-    {
-      setIsLoading(true);
-      const res =await fetch();
-       const data =await res.json();
-       setProducts(setProducts(data));
-        setIsError(false)
+  //   try
+  //   {
+  //     setIsLoading(true);
+  //     const res =await fetch();
+  //      const data =await res.json();
+  //      setProducts(setProducts(data));
+  //       setIsError(false)
 
-    }
-    catch (error)
-    {
-      setIsError(true)
-      setErrorMessage("Error Fetching the API");
-    }
+  //   }
+  //   catch (error)
+  //   {
+  //     setIsError(true)
+  //     setErrorMessage("Error Fetching the API");
+  //   }
 
-    finally
-    {
-      setIsLoading(false); 
-    }
+  //   finally
+  //   {
+  //     setIsLoading(false); 
+  //   }
     
 
    
 
 
       
-  }
+  // }
 
-  useEffect(() =>
-  {
+  // useEffect(() =>
+  // {
     
-    await loadPage();
+  //   await loadPage();
 
 
-  },[])
+  // },[])
 
   // const LoadPage = async() => {
   //   const res =await fetch("");
